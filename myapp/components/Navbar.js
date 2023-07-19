@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 const Navbar = () => {
   return (
     <header className='navbar'>
@@ -9,6 +9,7 @@ const Navbar = () => {
         <div className="flex-none">
             <ul className="menu menu-horizontal px-1">
             <li><a>Link</a></li>
+            <li><Link href={'/featured'}>Featured</Link></li>
             <li>
                 <details>
                 <summary>
