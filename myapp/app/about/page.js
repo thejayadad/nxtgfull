@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <section>
-        <h2 className='text-center'>About Us</h2>
+        <h2 className='text-center text-5xl'>About Us</h2>
         <div className='grid text-gray-600'>
         <div class="p-4">
           <img style={{height: "500px"}} className="w-full rounded mb-6" src="https://images.pexels.com/photos/1785852/pexels-photo-1785852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="about" />
