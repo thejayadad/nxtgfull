@@ -6,7 +6,7 @@ const About = () => {
         <h2 className='text-center'>About Us</h2>
         <div className='grid text-gray-600'>
         <div class="p-4">
-          <img className="rounded mb-6" src="https://images.pexels.com/photos/1785852/pexels-photo-1785852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="about" />
+          <img style={{height: "500px"}} className="w-full rounded mb-6" src="https://images.pexels.com/photos/1785852/pexels-photo-1785852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="about" />
          <div className='grid grid-cols-2'>
             <div>
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
